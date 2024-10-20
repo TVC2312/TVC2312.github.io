@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos del Propietario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('fondo.jpeg'); /* Ruta de la imagen de fondo */
+            background-size: cover; /* Para cubrir todo el fondo */
+            background-position: center; /* Centrar la imagen */
+            color: #fff; /* Color de texto claro */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: rgba(26, 26, 26, 0.8); /* Fondo de la tarjeta con algo de transparencia */
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px; /* Ancho de la tarjeta */
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.5); /* Sombra verde neón */
+            text-align: center;
+        }
+        .card h2 {
+            margin: 0 0 10px;
+            font-size: 24px;
+            text-shadow: 0 0 10px rgba(0, 255, 0, 0.7); /* Sombra de texto neón */
+        }
+        .card p {
+            margin: 10px 0;
+            color: #cccccc; /* Color de texto más claro */
+        }
+        .card .button {
+            background-color: #00ff00; /* Botón verde */
+            color: black;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none; /* Quitar subrayado */
+            display: inline-block; /* Para el espacio alrededor del botón */
+            transition: background-color 0.3s ease; /* Transición suave */
+        }
+        .card .button:hover {
+            background-color: #00cc00; /* Verde más oscuro al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h2>Datos del Propietario</h2>
+        <p><strong>Nombre:</strong> Tiziano Carrizo</p>
+        <p><strong>Email:</strong> tizianoinac23@gmail.com</p>
+        <p><strong>Teléfono:</strong> +54 9 11 3502-5495</p>
+        <p><strong>Descripción:</strong> Desarrollador web.</p>
+        <a href="mailto:tizianoinac23@gmail.com" class="button">Contactar</a>
+    </div>
+
+</body>
+</html>
